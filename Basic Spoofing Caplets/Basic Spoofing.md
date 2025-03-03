@@ -30,7 +30,7 @@ cd Ultimate-Spoof-Caplet/BasicSpoofing
 ```sh
 sudo bettercap -caplet BasicSpoof.cap
 ```
-or  
+And after the Successful Step
 ```sh
 sudo bettercap -caplet hstshijack.cap
 ```
