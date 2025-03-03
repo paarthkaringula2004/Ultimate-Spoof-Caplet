@@ -98,5 +98,4 @@ http.proxy on
 📌 **Contributors & Support**  
 👤 Created by **[@paarthkaringula2004](https://github.com/paarthkaringula2004)**  
 
-Feel free to **fork, modify, and contribute**! 🚀  
-```
+Feel free to **fork, modify, and contribute**! 🚀 
