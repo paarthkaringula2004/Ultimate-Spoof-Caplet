@@ -1,4 +1,3 @@
-```md
 # Basic Spoofing Caplets  
 
 🚀 **Basic Spoofing** contains lightweight **Bettercap caplets** for network spoofing, MITM attacks, and reconnaissance. These caplets provide fundamental **ARP spoofing, DNS spoofing, and SSL stripping** techniques for network penetration testing.  
@@ -19,7 +18,7 @@
 
 ---
 
-## 🔧 How to Use  
+## 🛠️ How to Use  
 
 ### **Clone the Repository**  
 ```sh
@@ -39,11 +38,11 @@ sudo bettercap -caplet hstshijack.cap
 ---
 
 ## ⚠️ Disclaimer  
-This project is for **Educational & Penetration Testing purposes only**. **Unauthorized use is illegal** and may violate **cybersecurity laws**.  
+This project is for **educational & penetration testing purposes only**. **Unauthorized use is illegal** and may violate **cybersecurity laws**.  
 
 ---
 
 📌 **Contributors & Support**  
 👤 Created by **[@paarthkaringula2004](https://github.com/paarthkaringula2004)**  
 
-Feel free to **fork, modify, and contribute**! 🚀 
+Feel free to **fork, modify, and contribute**! 🚀  
