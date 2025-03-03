@@ -66,8 +66,17 @@ cd Ultimate-Spoof-Caplet
 
 ### **Run Basic Spoofing Caplets**  
 ```sh
-sudo bettercap -caplet BasicSpoofing/BasicSpoof.cap
+sudo bettercap -caplet BasicSpoof.cap
 ```
+**With**
+```sh
+sudo bettercap -caplet hstshijack.cap
+```
+**And Use If Needed (Enable Packet Forwarding)**
+```sh
+echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
+```
+
 
 ### **Run Ultimate Spoof Caplet**  
 ```sh
