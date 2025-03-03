@@ -30,7 +30,7 @@ set sslstrip.ports {80,443,8080}
 set net.sniff.local true
 
 # Set the output file for captured packets
-set net.sniff.output /path/to/your/capture/file.cap
+set net.sniff.output /path/to/your/capture/file.cap [Location Of Where you want to store the .cap file]
 
 # Enable packet sniffing
 net.sniff on
