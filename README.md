@@ -26,30 +26,33 @@
 ## ⚠️ Precautions Before Using **Ultimate Spoof**  
 🛡️ Follow these steps to stay secure & undetected:
 
-1. **Use a compatible WiFi adapter** – Recommended: **TP-Link Archer T2U Plus (AC600) (Budget-Friendly Option)**  
+1. **Use a compatible WiFi adapter**  
+   Recommended: **TP-Link Archer T2U Plus (AC600)**
+   
+   ![Recommended WiFi Adapter](https://github.com/paarthkaringula2004/Ultimate-Spoof-Caplet/blob/main/images/tp-link-adapter.jpg)
+ 
    - [Amazon India](https://www.amazon.in/tp-link-archer-t2u-plus/s?k=tp+link+archer+t2u+plus)  
    - [Flipkart](https://www.flipkart.com/tp-link-archer-t2u-plus-ac600-high-gain-wireless-dual-band-usb-adapter/p/itm78f701f57c630)  
    - [TP-Link Official Store](https://www.tp-link.com/in/home-networking/high-gain-adapter/archer-t2u-plus/)
 
-      !(https://github.com/paarthkaringula2004/Ultimate-Spoof-Caplet/blob/main/images/tp-link-adapter.jpg)
 
-2. **Change the MAC Address:**  
+3. **Change the MAC Address:**  
    ```sh
    sudo ifconfig wlan1 down  
    sudo ifconfig wlan1 hw ether 00:11:22:33:44:55  
    sudo ifconfig wlan1 up  
    ```
-3. **Enable Monitor Mode:**  
+4. **Enable Monitor Mode:**  
    ```sh
    sudo airmon-ng check kill  
    sudo ifconfig wlan1 down  
    sudo iwconfig wlan1 mode monitor  
    sudo ifconfig wlan1 up  
    ```
-4. **Run in a controlled environment** (such as a test lab, not a public network).
-5. **Ensure you have proper authorization** before performing any tests.
-6. **Monitor your network activity** to avoid unintended damage.
-7. **Stop all attacks immediately** if you notice instability or unintended impact.
+5. **Run in a controlled environment** (such as a test lab, not a public network).
+6. **Ensure you have proper authorization** before performing any tests.
+7. **Monitor your network activity** to avoid unintended damage.
+8. **Stop all attacks immediately** if you notice instability or unintended impact.
 
 ---
 
