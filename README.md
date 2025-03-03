@@ -29,7 +29,9 @@
 1. **Use a compatible WiFi adapter** – Recommended: **TP-Link Archer T2U Plus (AC600) (Budget-Friendly Option)**  
    - [Amazon India](https://www.amazon.in/tp-link-archer-t2u-plus/s?k=tp+link+archer+t2u+plus)  
    - [Flipkart](https://www.flipkart.com/tp-link-archer-t2u-plus-ac600-high-gain-wireless-dual-band-usb-adapter/p/itm78f701f57c630)  
-   - [TP-Link Official Store](https://www.tp-link.com/in/home-networking/high-gain-adapter/archer-t2u-plus/)  
+   - [TP-Link Official Store](https://www.tp-link.com/in/home-networking/high-gain-adapter/archer-t2u-plus/)
+
+      !(https://github.com/paarthkaringula2004/Ultimate-Spoof-Caplet/blob/main/images/tp-link-adapter.jpg)
 
 2. **Change the MAC Address:**  
    ```sh
