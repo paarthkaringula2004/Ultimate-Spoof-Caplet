@@ -28,26 +28,27 @@
 🛡️ Follow these steps to stay secure & undetected:
 
 1. **Use a compatible WiFi adapter**  
-   Recommended: **TP-Link Archer T2U Plus (AC600)**  
+   Recommended: **TP-Link Archer T2U Plus (AC600)** (Budget-Friendly Option)**
+   
    ![Recommended WiFi Adapter](https://github.com/paarthkaringula2004/Ultimate-Spoof-Caplet/blob/main/images/tp-link-adapter.jpg)
 
-2. **Change the MAC Address:**  
+3. **Change the MAC Address:**  
    ```sh
    sudo ifconfig wlan1 down  
    sudo ifconfig wlan1 hw ether 00:11:22:33:44:55  
    sudo ifconfig wlan1 up  
    ```
-3. **Enable Monitor Mode:**  
+4. **Enable Monitor Mode:**  
    ```sh
    sudo airmon-ng check kill  
    sudo ifconfig wlan1 down  
    sudo iwconfig wlan1 mode monitor  
    sudo ifconfig wlan1 up  
    ```
-4. **Run in a controlled environment** (such as a test lab, not a public network).
-5. **Ensure you have proper authorization** before performing any tests.
-6. **Monitor your network activity** to avoid unintended damage.
-7. **Stop all attacks immediately** if you notice instability or unintended impact.
+5. **Run in a controlled environment** (such as a test lab, not a public network).
+6. **Ensure you have proper authorization** before performing any tests.
+7. **Monitor your network activity** to avoid unintended damage.
+8. **Stop all attacks immediately** if you notice instability or unintended impact.
 
 ---
 
