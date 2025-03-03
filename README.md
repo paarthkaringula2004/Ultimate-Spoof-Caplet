@@ -23,12 +23,14 @@
 
 ---
 
+
 ## ⚠️ Precautions Before Using **Ultimate Spoof**  
 🛡️ Follow these steps to stay secure & undetected:
 
-1. **Use a compatible WiFi adapter** 
-Recommended: **TP-Link Archer T2U Plus (AC600)**
-(images/tp-link-adapter.jpg)
+1. **Use a compatible WiFi adapter**  
+   Recommended: **TP-Link Archer T2U Plus (AC600)**  
+   ![Recommended WiFi Adapter](https://github.com/paarthkaringula2004/Ultimate-Spoof-Caplet/blob/main/images/tp-link-adapter.jpg)
+
 2. **Change the MAC Address:**  
    ```sh
    sudo ifconfig wlan1 down  
