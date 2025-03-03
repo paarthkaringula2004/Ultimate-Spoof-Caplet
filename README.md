@@ -1,2 +1,14 @@
-# Ultimate-Spoof-Caplet
-Ultimate Spoof 🚀 – A powerful Bettercap caplet for ARP Spoofing, DNS Spoofing, DHCP Starvation, SSL Stripping, and Packet Sniffing. Automate MITM attacks for penetration testing &amp; network analysis. ⚠️ For ethical use only.
+# Ultimate Spoof Caplet  
+🚀 A powerful Bettercap caplet for **ARP Spoofing, DNS Spoofing, SSL Stripping, and Packet Sniffing**.  
+
+## Features  
+- ARP Spoofing (Full-Duplex)  
+- DNS Spoofing for phishing  
+- DHCP Starvation attack  
+- SSL Stripping (HTTPS bypass)  
+- Packet Sniffing for analysis  
+
+## Usage 
+### Switch to Root User 
+```sh
+sudo bettercap -caplet UltimateSpoof.cap
