@@ -27,14 +27,23 @@
 🛡️ Follow these steps to stay secure & undetected:
 
 1. **Use a compatible WiFi adapter** – Recommended: **TP-Link Archer T2U Plus (AC600)**
-2. **Change your MAC address** before starting:
+2. **Change the MAC Address:**  
    ```sh
-   sudo macchanger -r wlan0
+   sudo ifconfig wlan1 down  
+   sudo ifconfig wlan1 hw ether 00:11:22:33:44:55  
+   sudo ifconfig wlan1 up  
    ```
-3. **Run in a controlled environment** (such as a test lab, not a public network).
-4. **Ensure you have proper authorization** before performing any tests.
-5. **Monitor your network activity** to avoid unintended damage.
-6. **Stop all attacks immediately** if you notice instability or unintended impact.
+3. **Enable Monitor Mode:**  
+   ```sh
+   sudo airmon-ng check kill  
+   sudo ifconfig wlan1 down  
+   sudo iwconfig wlan1 mode monitor  
+   sudo ifconfig wlan1 up  
+   ```
+4. **Run in a controlled environment** (such as a test lab, not a public network).
+5. **Ensure you have proper authorization** before performing any tests.
+6. **Monitor your network activity** to avoid unintended damage.
+7. **Stop all attacks immediately** if you notice instability or unintended impact.
 
 ---
 
