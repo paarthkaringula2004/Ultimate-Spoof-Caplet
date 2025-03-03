@@ -28,7 +28,7 @@
 🛡️ Follow these steps to stay secure & undetected:
 
 1. **Use a compatible WiFi adapter**  
-   Recommended: **TP-Link Archer T2U Plus (AC600)** (Budget-Friendly Option)**
+   Recommended: **TP-Link Archer T2U Plus (AC600)** **(Budget-Friendly Option)**
    
    ![Recommended WiFi Adapter](https://github.com/paarthkaringula2004/Ultimate-Spoof-Caplet/blob/main/images/tp-link-adapter.jpg)
 
