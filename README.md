@@ -29,7 +29,7 @@
 1. **Use a compatible WiFi adapter**  
    Recommended: **TP-Link Archer T2U Plus (AC600)**
    
-   ![Recommended WiFi Adapter](https://github.com/paarthkaringula2004/Ultimate-Spoof-Caplet/blob/main/images/tp-link-adapter.jpg)
+   ![Recommended WiFi Adapter](https://github.com/paarthkaringula2004/Project-Images-Video/blob/main/Images-Videos/Ultimate-Spoof-Caplet/tp-link-adapter.jpg)
  
    - [Amazon India](https://www.amazon.in/tp-link-archer-t2u-plus/s?k=tp+link+archer+t2u+plus)  
    - [Flipkart](https://www.flipkart.com/tp-link-archer-t2u-plus-ac600-high-gain-wireless-dual-band-usb-adapter/p/itm78f701f57c630)  
