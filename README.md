@@ -1,12 +1,12 @@
 # Ultimate & Basic Spoof Caplets  
 
-🚀 This repository contains **two sets of Bettercap caplets**:
+This repository contains **two sets of Bettercap caplets**:
 - **Basic Spoofing Caplets** (for learning & understanding spoofing techniques)
 - **Ultimate Spoof Caplet** (for advanced penetration testing & real-world attack simulations)  
 
 ---
 
-## 🛠️ When to Use Which Caplet?  
+## When to Use Which Caplet?  
 
 ### **1. Basic Spoofing Caplets** (Recommended for Learning)  
 🔗 Location: `BasicSpoofing/`
@@ -23,7 +23,7 @@
 
 ---
 
-## ⚠️ Precautions Before Using **Ultimate Spoof**  
+## Precautions Before Using **Ultimate Spoof**  
 🛡️ Follow these steps to stay secure & undetected:
 
 1. **Use a compatible WiFi adapter**  
@@ -56,13 +56,6 @@
 
 ---
 
-## 🔄 How to Clone & Use  
-
-### **Clone the Repository**  
-```sh
-git clone https://github.com/paarthkaringula2004/Ultimate-Spoof-Caplet.git
-cd Ultimate-Spoof-Caplet
-```
 
 ### **Run Basic Spoofing Caplets**  
 ```sh
